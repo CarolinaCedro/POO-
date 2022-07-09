@@ -10,10 +10,13 @@ public class Pessoa {
 
 
     public void Relatorio(String name, int idade, double peso) {
+        System.out.println("---------------");
         System.out.println("Dados Pessoais");
         System.out.println("Nome: " + name);
         System.out.println("Idade: " + idade);
         System.out.println("Peso: " + peso);
+        System.out.println("---------------");
+        System.out.println();
     }
 
     public void Cadastro(String name, int idade, double peso) {
@@ -25,6 +28,8 @@ public class Pessoa {
         this.idade = sc.nextInt();
         System.out.println("Entre com seu peso: ");
         this.peso = sc.nextDouble();
+        System.out.println("Cadastrado com sucesso!!");
+        System.out.println();
     }
 
     public void atualizacaoDados(String name, int idade, double peso) {
@@ -38,9 +43,13 @@ public class Pessoa {
         setPeso(sc.nextDouble());
 
         System.out.println("Dados atualizados com sucesso!!");
+        System.out.println();
+        System.out.println("------------------");
         System.out.println("Nome:" + getNome());
         System.out.println("Idade:" + getIdade());
         System.out.println("Peso:" + getPeso());
+        System.out.println("------------------");
+
 
 
     }
@@ -49,6 +58,9 @@ public class Pessoa {
         this.nome = "Sem nome Cadastrado";
         this.idade = 0;
         this.peso = 0.0;
+
+        System.out.println("Dados apagados com sucesso!!");
+        System.out.println();
     }
 
     public String getNome() {
