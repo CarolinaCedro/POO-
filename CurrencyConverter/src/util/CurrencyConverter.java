@@ -6,6 +6,10 @@ public class CurrencyConverter {
     public static double quantifyBuy;
     public static double totalMoney;
 
+
+
+
+
     public static double convertReais(double amount) {
         double totalValue, juros;
         totalValue = (priceDollar * amount);
