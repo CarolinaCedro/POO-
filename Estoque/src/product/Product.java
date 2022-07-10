@@ -6,11 +6,22 @@ public class Product {
     public double Price;
     public int Quantity;
 
-    public void report(String Name, double Price, int quantity) {
-        System.out.println("Enter product data: ");
-        System.out.println("Name: "+Name);
-        System.out.println("Price: "+Price);
-        System.out.println("Quantity in stock: "+quantity);
+    public void report() {
+        System.out.printf("Updated data: %s, $ %.2f, %d units, Total: $ %.2f%n",Name,Price,Quantity,TotalValueInStock());
+    }
+
+
+    public double TotalValueInStock() {
+        return Price * Quantity;
+    }
+
+
+    public void AddProducts(int quantity) {
+        this.Quantity += quantity;
+    }
+
+    public void RemoveProducts(int quantity) {
+        this.Quantity -= quantity;
     }
 
 }

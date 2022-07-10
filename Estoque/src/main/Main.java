@@ -10,18 +10,33 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Product prod;
 
+        Product prod;
+        int qtd;
         prod = new Product();
 
-        System.out.println("Nome produto: ");
+        System.out.println("Enter product data:");
+        System.out.println("Name: ");
         prod.Name = sc.nextLine();
 
-        System.out.println("Preco produto: ");
+        System.out.println("Price: ");
         prod.Price = sc.nextDouble();
 
-        System.out.println("Quantidade no estoque: ");
+        System.out.println("Quantity in stock: ");
         prod.Quantity = sc.nextInt();
+
+        prod.report();
+
+        System.out.println("Enter the number of products to be added in stock:");
+        qtd = sc.nextInt();
+        prod.AddProducts(qtd);
+        prod.report();
+
+        System.out.println("Enter the number of products to be removed from stock:");
+        qtd = sc.nextInt();
+        prod.RemoveProducts(qtd);
+        prod.report();
+
 
     }
 }
