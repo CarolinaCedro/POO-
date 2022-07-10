@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Area/Area.iml" filepath="$PROJECT_DIR$/Area/Area.iml" />
       <module fileurl="file://$PROJECT_DIR$/Boletim/Boletim.iml" filepath="$PROJECT_DIR$/Boletim/Boletim.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CurrencyConverter/CurrencyConverter.iml" filepath="$PROJECT_DIR$/CurrencyConverter/CurrencyConverter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Estoque/Estoque.iml" filepath="$PROJECT_DIR$/Estoque/Estoque.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercicio01/Exercicio01.iml" filepath="$PROJECT_DIR$/Exercicio01/Exercicio01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Holerite/Holerite.iml" filepath="$PROJECT_DIR$/Holerite/Holerite.iml" />

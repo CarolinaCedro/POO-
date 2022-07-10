@@ -1,4 +1,4 @@
-package main;
+package CrudSimples.src.main;
 
 import pessoa.Pessoa;
 
