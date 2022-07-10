@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f176305d-c091-4cc6-8104-99d2f84f2797" name="Changes" comment="rsdfsdfsdf">
+      <change afterPath="$PROJECT_DIR$/Area/Area.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Area/src/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Area/src/rectangle/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estoque/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Estoque/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estoque/src/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Estoque/src/product/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.main.Main (1)">
+  <component name="RunManager" selected="Application.main.Main (2)">
     <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hello" />
       <module name="Exercicio01" />
@@ -80,6 +82,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main.Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="Area" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="Exercicio01" />
@@ -95,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main.Main (2)" />
         <item itemvalue="Application.main.Main (1)" />
         <item itemvalue="Application.main.Main" />
         <item itemvalue="Application.Hello" />
@@ -111,7 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657403494042</updated>
       <workItem from="1657403495588" duration="17000" />
-      <workItem from="1657403541064" duration="11148000" />
+      <workItem from="1657403541064" duration="12425000" />
     </task>
     <task id="LOCAL-00001" summary="rsdfsdfsdf">
       <created>1657413633738</created>
