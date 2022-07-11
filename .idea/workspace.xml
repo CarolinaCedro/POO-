@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f176305d-c091-4cc6-8104-99d2f84f2797" name="Changes" comment="up">
+      <change afterPath="$PROJECT_DIR$/Vector/src/aplication/NumerosPares.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vector/src/aplication/Ficha.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vector/src/aplication/Ficha.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vector/src/services/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vector/src/services/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vector/aplication/Ficha.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vector/aplication/Ficha.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Vector/services/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vector/services/Person.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +59,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ficha">
+  <component name="RunManager" selected="Application.NumerosPares">
     <configuration name="Ficha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aplication.Ficha" />
       <module name="Vector" />
@@ -89,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Soma_vetor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aplication.Soma_vetor" />
+    <configuration name="NumerosPares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aplication.NumerosPares" />
       <module name="Vector" />
       <extension name="coverage">
         <pattern>
@@ -102,9 +99,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aplication.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aplication.Main" />
-      <module name="Banco" />
+    <configuration name="Soma_vetor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aplication.Soma_vetor" />
+      <module name="Vector" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="aplication.*" />
@@ -130,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumerosPares" />
         <item itemvalue="Application.Ficha" />
         <item itemvalue="Application.Soma_vetor" />
         <item itemvalue="Application.aplication.Main (2)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.aplication.Main (1)" />
       </list>
     </recent_temporary>
   </component>
