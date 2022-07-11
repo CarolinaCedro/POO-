@@ -40,22 +40,15 @@ public class Transactions {
     }
 
     public void report() {
-        System.out.printf("Account %d, Holder: %s, Balance: $ %.2f%n", id, Name, amount);
+        System.out.printf("Account %d, Holder: %s, Balance: $ %.2f%n", id, Name, initialDeposit);
     }
 
-    public double amountAdd(double valueAmount) {
-        double test = initialDeposit + valueAmount;
-        this.amount = test;
-        return test;
+    public void deposit(double valueAmount) {
+        initialDeposit += valueAmount;
     }
 
-    public double amountRemove(double valueAmount){
-        double test = amount - valueAmount;
-        return test;
-    }
-
-    public double getAmount(){
-        return amount;
+    public void witdraw(double valueAmount) {
+        initialDeposit -= valueAmount - 5.00;
     }
 
 

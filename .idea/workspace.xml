@@ -8,6 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Banco/src/aplication/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Banco/src/aplication/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Banco/src/entities/Transactions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Banco/src/entities/Transactions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Banco/aplication/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Banco/aplication/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Banco/entities/Transactions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Banco/entities/Transactions.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

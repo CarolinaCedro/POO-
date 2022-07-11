@@ -16,7 +16,7 @@ public class Main {
         System.out.println("Enter account number: ");
         int id = sc.nextInt();
         sc.nextLine();
-        System.out.println("Enter account holder:: ");
+        System.out.println("Enter account holder: ");
         String Name = sc.nextLine();
         System.out.println("Is there na initial deposit (y/n)?");
         char op = sc.next().charAt(0);
@@ -32,21 +32,17 @@ public class Main {
                 break;
         }
 
-
         System.out.println("Account data:");
         System.out.printf("Account %d, Holder: %s, Balance: $ %.2f%n", transactions.getId(), transactions.getName(), transactions.getInitialDeposit());
-
         System.out.println("Enter a deposit value:");
         double deposit = sc.nextDouble();
-        transactions.amountAdd(deposit);
+        transactions.deposit(deposit);
         System.out.println("Updated account data:");
         transactions.report();
         System.out.println("Enter a withdraw value:");
         double witdraw = sc.nextDouble();
-        System.out.println(transactions.getAmount());
-        transactions.amountRemove(witdraw);
+        transactions.witdraw(witdraw);
         transactions.report();
-        System.out.println(transactions.getAmount());
 
 
     }
