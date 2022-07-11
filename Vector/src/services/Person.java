@@ -5,11 +5,11 @@ public class Person {
     private String Name;
     private int Idade;
     private double Height;
+    private Integer vet[] = new Integer[5];
 
 
     public Person() {
     }
-
     @Override
     public String toString() {
         return "Dados" + "\n" +
@@ -22,6 +22,18 @@ public class Person {
         Name = name;
         Idade = idade;
         Height = height;
+    }
+
+    public Integer[] getVet() {
+        return vet;
+    }
+
+    public void setVet(Integer[] vet) {
+        this.vet = vet;
+    }
+
+    public Person(Integer num) {
+        vet[5]= num;
     }
 
     public String getName() {
@@ -53,7 +65,7 @@ public class Person {
         return altura / qtd;
     }
 
-    public double heigthPersons(double qtdPerson,int qtd) {
+    public double heigthPersons(double qtdPerson, int qtd) {
         return qtdPerson * 100.0 / qtd;
     }
 }

@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f176305d-c091-4cc6-8104-99d2f84f2797" name="Changes" comment="up">
-      <change afterPath="$PROJECT_DIR$/Vector/src/aplication/NumerosPares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vector/src/aplication/Maior_Posicao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vector/src/services/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Vector/src/services/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Vector/aplication/NumerosPares.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vector/aplication/NumerosPares.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Vector/services/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Vector/services/Person.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +62,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.NumerosPares">
+  <component name="RunManager" selected="Application.Maior_Posicao">
     <configuration name="Ficha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aplication.Ficha" />
       <module name="Vector" />
@@ -73,9 +76,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aplication.Main" />
-      <module name="Dentista" />
+    <configuration name="Maior_Posicao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aplication.Maior_Posicao" />
+      <module name="Vector" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="aplication.*" />
@@ -127,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Maior_Posicao" />
         <item itemvalue="Application.NumerosPares" />
         <item itemvalue="Application.Ficha" />
         <item itemvalue="Application.Soma_vetor" />
         <item itemvalue="Application.aplication.Main (2)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
