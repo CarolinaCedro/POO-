@@ -6,6 +6,18 @@ public class Person {
     private int Idade;
     private double Height;
 
+
+    public Person() {
+    }
+
+    @Override
+    public String toString() {
+        return "Dados" + "\n" +
+                "Nome = " + Name + "\n" +
+                "Idade = " + Idade + "\n" +
+                "Altura = " + Height;
+    }
+
     public Person(String name, int idade, double height) {
         Name = name;
         Idade = idade;
@@ -34,5 +46,14 @@ public class Person {
 
     public void setHeight(double height) {
         Height = height;
+    }
+
+
+    public double alturaMedia(double altura, int qtd) {
+        return altura / qtd;
+    }
+
+    public double heigthPersons(double qtdPerson,int qtd) {
+        return qtdPerson * 100.0 / qtd;
     }
 }
