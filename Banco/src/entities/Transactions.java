@@ -48,7 +48,7 @@ public class Transactions {
     }
 
     public void witdraw(double valueAmount) {
-        initialDeposit -= valueAmount - 5.00;
+        initialDeposit -= valueAmount + 5.00;
     }
 
 
