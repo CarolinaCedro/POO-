@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f176305d-c091-4cc6-8104-99d2f84f2797" name="Changes" comment="up">
-      <change afterPath="$PROJECT_DIR$/20e6bba6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AumentoSalario-Lista/AumentoSalario-Lista.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AumentoSalario-Lista/src/aplication/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AumentoSalario-Lista/src/entities/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lists/Lists.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lists/src/aplication/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lists/src/entities/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AumentoSalario-Lista/entities/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AumentoSalario-Lista/entities/Client.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,27 +46,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_directory_selection&quot;: &quot;/home/ana-cedro/Área de Trabalho/Invillia/POO-/Holerite/src/main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ana-cedro/Área de Trabalho/Invillia/POO-&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_directory_selection": "/home/ana-cedro/Área de Trabalho/Invillia/POO-/Holerite/src/main",
+    "last_opened_file_path": "/home/ana-cedro/Área de Trabalho/Invillia/POO-",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
-  <component name="RunManager" selected="Application.aplication.Main">
+}]]></component>
+  <component name="RunManager" selected="Application.Login">
     <configuration name="Abaixo_media" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aplication.Abaixo_media" />
       <module name="Vector" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aplication.Login" />
+      <module name="Lists" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="aplication.*" />
@@ -116,26 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="soma_vetores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aplication.soma_vetores" />
-      <module name="Vector" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aplication.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Login" />
         <item itemvalue="Application.aplication.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Media_pares" />
         <item itemvalue="Application.Abaixo_media" />
-        <item itemvalue="Application.soma_vetores" />
       </list>
     </recent_temporary>
   </component>
