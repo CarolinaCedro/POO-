@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f176305d-c091-4cc6-8104-99d2f84f2797" name="Changes" comment="up">
-      <change afterPath="$PROJECT_DIR$/Pensionato/Pensionato.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pensionato/src/aplication/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pensionato/src/services/Guest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20e6bba6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AumentoSalario-Lista/AumentoSalario-Lista.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AumentoSalario-Lista/src/aplication/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AumentoSalario-Lista/src/entities/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -62,7 +63,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.aplication.Main">
     <configuration name="Abaixo_media" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aplication.Abaixo_media" />
       <module name="Vector" />
@@ -89,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maior_Posicao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aplication.Maior_Posicao" />
+    <configuration name="Media_pares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aplication.Media_pares" />
       <module name="Vector" />
       <extension name="coverage">
         <pattern>
@@ -102,9 +103,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Media_pares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aplication.Media_pares" />
-      <module name="Vector" />
+    <configuration name="aplication.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aplication.Main" />
+      <module name="AumentoSalario-Lista" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="aplication.*" />
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.aplication.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Media_pares" />
         <item itemvalue="Application.Abaixo_media" />
         <item itemvalue="Application.soma_vetores" />
-        <item itemvalue="Application.Maior_Posicao" />
       </list>
     </recent_temporary>
   </component>
