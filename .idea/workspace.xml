@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f176305d-c091-4cc6-8104-99d2f84f2797" name="Changes" comment="up">
-      <change afterPath="$PROJECT_DIR$/Lists/Lists.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lists/src/aplication/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lists/src/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AumentoSalario-Lista/entities/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AumentoSalario-Lista/entities/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lists/src/aplication/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lists/src/aplication/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lists/src/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lists/src/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lists/aplication/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lists/aplication/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lists/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lists/entities/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

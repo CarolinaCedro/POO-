@@ -82,6 +82,11 @@ public class User {
         Phone = phone;
     }
 
+    public Integer getID() {
+        return ID;
+    }
+
+
     @Override
     public String toString() {
         return "User{" +

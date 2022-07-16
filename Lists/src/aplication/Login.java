@@ -10,6 +10,7 @@ import java.util.Scanner;
 public class Login {
 
     static List<User> userList = new ArrayList<>();
+    static User user = new User();
 
     public static void main(String[] args) {
 
@@ -35,7 +36,7 @@ public class Login {
                     inputData();
                     break;
                 case 2:
-                    System.out.println("teste update");
+                    updateUsers();
                     break;
                 case 3:
                     listUsers();
@@ -86,6 +87,60 @@ public class Login {
         ) {
             System.out.println(res);
         }
+    }
+
+    public static void updateUsers() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Entre com o id que deseja alterar: ");
+        for (User res : userList
+        ) {
+            System.out.println("ID = " + res.getID() + " Name: " + res.getFirstName());
+        }
+
+        int idSearch = sc.nextInt();
+
+        Integer res = validationId(userList, idSearch);
+
+        if (res == null) {
+            System.out.println("Atenção !! Usuario invalido ...");
+        } else {
+            System.out.println("---- ATUALIZAÇÃO ----");
+            System.out.println("New firts name: ");
+            String newFirstName = sc.nextLine();
+            user.setFirstName(newFirstName);
+            System.out.println("New last name: ");
+            String newlastName = sc.nextLine();
+            user.setFirstName(newlastName);
+            System.out.println("New email: ");
+            String newEmail = sc.nextLine();
+            user.setFirstName(newEmail);
+            System.out.println("New gender: ");
+            String newGender = sc.nextLine();
+            user.setFirstName(newGender);
+            System.out.println("New birtday: ");
+            String newBirtday = sc.nextLine();
+            user.setFirstName(newBirtday);
+            System.out.println("New city: ");
+            String newCity = sc.nextLine();
+            user.setFirstName(newCity);
+            System.out.println("New Phone: ");
+            String newPhone = sc.nextLine();
+            user.setFirstName(newPhone);
+            System.out.println("Salvando...");
+            System.out.println("Dados atualizados com sucesso!!");
+        }
+
+
+    }
+
+    public static Integer validationId(List<User> user, int id) {
+        for (int i = 0; i < userList.size(); i++) {
+            if (userList.get(i).getID() == id) {
+                return i;
+            }
+        }
+
+        return null;
     }
 
 
