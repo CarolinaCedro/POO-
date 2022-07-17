@@ -86,18 +86,28 @@ public class User {
         return ID;
     }
 
+    public void updateList(String firstName, String lastName, String email, String gender, String city, String birthday, int phone) {
+        setFirstName(firstName);
+        setLastName(lastName);
+        setEmail(email);
+        setGender(gender);
+        setCity(city);
+        setBirthday(birthday);
+        setPhone(phone);
+    }
 
     @Override
     public String toString() {
-        return "User{" +
-                "FirstName='" + FirstName + '\'' +
-                ", LastName='" + LastName + '\'' +
-                ", Email='" + Email + '\'' +
-                ", Gender='" + Gender + '\'' +
-                ", Birthday='" + Birthday + '\'' +
-                ", City='" + City + '\'' +
-                ", Phone=" + Phone +
-                ", ID=" + ID +
-                '}';
+        return "-- Users --" + "\n" +
+                "ID = " + ID + "\n" +
+                "FirstName =   " + FirstName + "\n" +
+                "LastName =   " + LastName + "\n" +
+                "Email = " + Email + "\n" +
+                "Gender = " + Gender + "\n" +
+                "Birthday = " + Birthday + "\n" +
+                "City = " + City + "\n" +
+                "Phone = " + Phone +"\n" +
+                "------------------------------- \n"
+                ;
     }
 }

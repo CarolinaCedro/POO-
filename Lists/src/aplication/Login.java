@@ -11,6 +11,7 @@ public class Login {
 
     static List<User> userList = new ArrayList<>();
     static User user = new User();
+    static int index;
 
     public static void main(String[] args) {
 
@@ -24,11 +25,11 @@ public class Login {
         while (op != 0) {
 
             System.out.println("--- Menu ---");
-            System.out.println("(1)Cadastrar usuario");
-            System.out.println("(2)Editar usuario");
-            System.out.println("(3)Listar usuarios");
-            System.out.println("(4)Apagar usuarios");
-            System.out.println("(0)Sair");
+            System.out.println("(1)Create user");
+            System.out.println("(2)Update user");
+            System.out.println("(3)list users");
+            System.out.println("(4)Delete user");
+            System.out.println("(0)exit");
             op = sc.nextInt();
 
             switch (op) {
@@ -42,10 +43,10 @@ public class Login {
                     listUsers();
                     break;
                 case 4:
-                    System.out.println("test delete");
+                    deleteUser();
                     break;
                 default:
-                    System.out.println("Saindo...");
+                    System.out.println("exiting...");
             }
         }
     }
@@ -58,7 +59,7 @@ public class Login {
 
         System.out.println();
         System.out.println("-------- DECADRONE SYSTEM --------");
-        System.out.println("- Registration form -");
+        System.out.println("- Registration -");
         System.out.println("Enter for id: ");
         int id = sc.nextInt();
         sc.nextLine();
@@ -105,32 +106,63 @@ public class Login {
             System.out.println("Atenção !! Usuario invalido ...");
         } else {
             System.out.println("---- ATUALIZAÇÃO ----");
+            sc.nextLine();
             System.out.println("New firts name: ");
             String newFirstName = sc.nextLine();
-            user.setFirstName(newFirstName);
+
             System.out.println("New last name: ");
             String newlastName = sc.nextLine();
-            user.setFirstName(newlastName);
+
             System.out.println("New email: ");
             String newEmail = sc.nextLine();
-            user.setFirstName(newEmail);
+
             System.out.println("New gender: ");
             String newGender = sc.nextLine();
-            user.setFirstName(newGender);
+
             System.out.println("New birtday: ");
             String newBirtday = sc.nextLine();
-            user.setFirstName(newBirtday);
+
             System.out.println("New city: ");
             String newCity = sc.nextLine();
-            user.setFirstName(newCity);
+
             System.out.println("New Phone: ");
-            String newPhone = sc.nextLine();
-            user.setFirstName(newPhone);
+            int newPhone = sc.nextInt();
+
             System.out.println("Salvando...");
             System.out.println("Dados atualizados com sucesso!!");
+            userList.get(res).updateList(newFirstName, newlastName, newEmail, newGender, newCity, newBirtday, newPhone);
         }
 
 
+    }
+
+    public static void deleteUser() {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("-- DELETING --");
+        System.out.println("Enter the id you want to delete");
+        for (User res : userList
+        ) {
+            System.out.println("ID = " + res.getID() + " Name: " + res.getFirstName());
+        }
+        int idDeleteOp = sc.nextInt();
+        Integer idDelete = validationId(userList, idDeleteOp);
+
+        if (idDelete == null) {
+            System.out.println("INVALID ID");
+        } else {
+            User userDeleted = userList.get(idDelete);
+            userList.remove(userDeleted);
+
+            System.out.println("ATTENTION ID IS BEING DELETED...");
+
+            System.out.println("Now, Size of list: " + userList.size());
+
+            for (User res : userList) {
+                System.out.println(res);
+            }
+            System.out.println("successfully deleted");
+        }
     }
 
     public static Integer validationId(List<User> user, int id) {
