@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f176305d-c091-4cc6-8104-99d2f84f2797" name="Changes" comment="up">
-      <change afterPath="$PROJECT_DIR$/Composicao/Composicao.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Composicao/src/aplication/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Composicao/src/entities/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Composicao/src/entities/HourContract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Composicao/src/entities/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Composicao/src/entities_enum/WorkerLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composicao/src/aplication/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Composicao/src/aplication/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composicao/src/entities/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Composicao/src/entities/Worker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +60,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.aplication.Main (1)">
+  <component name="RunManager" selected="Application.aplication.Main (2)">
     <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aplication.Login" />
       <module name="Lists" />
@@ -92,9 +87,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Media_pares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aplication.Media_pares" />
-      <module name="Vector" />
+    <configuration name="aplication.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aplication.Main" />
+      <module name="Enum" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="aplication.*" />
@@ -105,9 +100,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aplication.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="aplication.Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aplication.Main" />
-      <module name="Enum" />
+      <module name="Composicao" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="aplication.*" />
@@ -133,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.aplication.Main (2)" />
         <item itemvalue="Application.aplication.Main (1)" />
         <item itemvalue="Application.Login" />
         <item itemvalue="Application.aplication.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Media_pares" />
       </list>
     </recent_temporary>
   </component>
