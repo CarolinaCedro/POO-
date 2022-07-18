@@ -1,12 +1,23 @@
 package entities;
 
 public class OrderItem {
-    private Integer quantify;
-    private Double price;
+
     private Product product;
+    private Double price;
+    private Integer quantify;
+
 
     public OrderItem() {
     }
+
+
+
+    public OrderItem(Integer quantify, Double price, Product product) {
+        this.product = product;
+        this.price = price;
+        this.quantify = quantify;
+    }
+
 
     public Product getProduct() {
         return product;
@@ -16,10 +27,6 @@ public class OrderItem {
         this.product = product;
     }
 
-    public OrderItem(Integer quantify, Double price) {
-        this.quantify = quantify;
-        this.price = price;
-    }
 
     public Integer getQuantify() {
         return quantify;
@@ -39,5 +46,16 @@ public class OrderItem {
 
     public double subTotal() {
         return quantify * price;
+    }
+
+    @Override
+    public String toString() {
+        return getProduct().getName()
+                + ", $"
+                + String.format("%.2f", price)
+                + ", Quantity: "
+                + quantify
+                + ", Subtotal: $"
+                + String.format("%.2f", subTotal());
     }
 }

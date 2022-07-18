@@ -24,16 +24,21 @@ public class Main {
         System.out.println("Email: ");
         String email = sc.nextLine();
         System.out.println("Birth date (DD/MM/YYYY): ");
-        String birtDate = sc.nextLine();
-        Date formatedDate = sdf.parse(birtDate);
+        Date birthDate = sdf.parse(sc.next());
+        Client client = new Client(name,email,birthDate);
+
         System.out.println("Enter order data: ");
         System.out.println("Status:");
         String status = sc.next();
+        OrderStatus orderStatus = OrderStatus.valueOf(status);
+        Order order = new Order(new Date(),orderStatus,client);
+
         System.out.println("How many items to this order? ");
         int op = sc.nextInt();
 
         for (int i = 1; i <= op; i++) {
-            System.out.println("Enter #"+i+" item data:");
+            System.out.println("Enter #" + i + " item data:");
+            sc.nextLine();
             System.out.println("Product name: ");
             String productName = sc.nextLine();
             System.out.println("Product price: ");
@@ -41,11 +46,13 @@ public class Main {
             System.out.println("Quantity: ");
             int quantity = sc.nextInt();
             Product product = new Product(productName,productPrice);
-            OrderItem orderItem = new OrderItem(quantity,productPrice);
-
-
+            OrderItem item = new OrderItem(quantity,productPrice,product);
+            order.addItem(item);
 
         }
+
+        System.out.println();
+        System.out.println(order);
 
 
     }
