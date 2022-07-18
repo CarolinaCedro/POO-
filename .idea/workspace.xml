@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f176305d-c091-4cc6-8104-99d2f84f2797" name="Changes" comment="up">
+      <change afterPath="$PROJECT_DIR$/Composicao2/Composicao2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composicao2/src/aplication/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composicao2/src/entities/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composicao2/src/entities/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composicao2/src/entities/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composicao2/src/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Composicao2/src/entities_enum/OrderStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Composicao/src/aplication/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Composicao/src/aplication/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Composicao/src/entities/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Composicao/src/entities/Worker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
