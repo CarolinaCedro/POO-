@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f176305d-c091-4cc6-8104-99d2f84f2797" name="Changes" comment="up">
+      <change afterPath="$PROJECT_DIR$/Heranca/Heranca.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heranca/src/entities/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heranca/src/entities/OutsourcedEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Composicao2/src/aplication/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Composicao2/src/aplication/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Composicao2/src/entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Composicao2/src/entities/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Composicao2/src/entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Composicao2/src/entities/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Composicao2/src/entities/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Composicao2/src/entities/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Composicao2/src/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/Composicao2/src/entities/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
