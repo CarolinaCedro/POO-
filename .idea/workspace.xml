@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f176305d-c091-4cc6-8104-99d2f84f2797" name="Changes" comment="up">
-      <change afterPath="$PROJECT_DIR$/Heranca/Heranca.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heranca/src/entities/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heranca/src/entities/OutsourcedEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heranca/src/aplication/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heranca/src/entities/OutsourcedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Heranca/src/entities/OutsourcedEmployee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,10 +60,23 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.aplication.Main (3)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aplication.Login" />
       <module name="Lists" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aplication.Main" />
+      <module name="Heranca" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="aplication.*" />
@@ -115,26 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aplication.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aplication.Main" />
-      <module name="AumentoSalario-Lista" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aplication.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.aplication.Main (3)" />
         <item itemvalue="Application.aplication.Main (2)" />
         <item itemvalue="Application.aplication.Main (1)" />
         <item itemvalue="Application.Login" />
-        <item itemvalue="Application.aplication.Main" />
       </list>
     </recent_temporary>
   </component>
