@@ -21,11 +21,12 @@ public class ImportedProduct extends Product {
     }
 
     public Double totalPrice(double customsFee) {
-        return getPrice() * customsFee / 100;
+
+        return getPrice() + customsFee;
     }
 
     @Override
     public String priceTag() {
-        return getName() + " $ " + getPrice() + " (Customs fee:  $ " + getCustoms() + ")";
+        return getName() + " $ " + totalPrice(customs) + " (Customs fee:  $ " + getCustoms() + ")";
     }
 }

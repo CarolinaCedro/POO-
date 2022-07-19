@@ -23,7 +23,7 @@ public class Main {
             System.out.println("Product #" + i + " data:");
             System.out.println("Common, used or imported (c/u/i)? ");
             char op = sc.next().charAt(0);
-
+            sc.nextLine();
             System.out.println("Name: ");
             String name = sc.nextLine();
             System.out.println("Price: ");
@@ -48,7 +48,7 @@ public class Main {
         System.out.println("PRICE TAGS:");
         for (Product product : productList
         ) {
-            System.out.println(product);
+            System.out.println(product.priceTag());
         }
 
     }
