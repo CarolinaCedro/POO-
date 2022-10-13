@@ -2,28 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AbstractMethod01/AbstractMethod01.iml" filepath="$PROJECT_DIR$/AbstractMethod01/AbstractMethod01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AbstractMethod02/AbstractMethod02.iml" filepath="$PROJECT_DIR$/AbstractMethod02/AbstractMethod02.iml" />
       <module fileurl="file://$PROJECT_DIR$/Area/Area.iml" filepath="$PROJECT_DIR$/Area/Area.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AumentoSalario-Lista/AumentoSalario-Lista.iml" filepath="$PROJECT_DIR$/AumentoSalario-Lista/AumentoSalario-Lista.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Banco/Banco.iml" filepath="$PROJECT_DIR$/Banco/Banco.iml" />
       <module fileurl="file://$PROJECT_DIR$/Boletim/Boletim.iml" filepath="$PROJECT_DIR$/Boletim/Boletim.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Composicao/Composicao.iml" filepath="$PROJECT_DIR$/Composicao/Composicao.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Composicao2/Composicao2.iml" filepath="$PROJECT_DIR$/Composicao2/Composicao2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CurrencyConverter/CurrencyConverter.iml" filepath="$PROJECT_DIR$/CurrencyConverter/CurrencyConverter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Dentista/Dentista.iml" filepath="$PROJECT_DIR$/Dentista/Dentista.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Enum/Enum.iml" filepath="$PROJECT_DIR$/Enum/Enum.iml" />
       <module fileurl="file://$PROJECT_DIR$/Estoque/Estoque.iml" filepath="$PROJECT_DIR$/Estoque/Estoque.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Exceptions/Exceptions.iml" filepath="$PROJECT_DIR$/Exceptions/Exceptions.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercicio01/Exercicio01.iml" filepath="$PROJECT_DIR$/Exercicio01/Exercicio01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ficha-Medica/Ficha-Medica.iml" filepath="$PROJECT_DIR$/Ficha-Medica/Ficha-Medica.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Heranca/Heranca.iml" filepath="$PROJECT_DIR$/Heranca/Heranca.iml" />
       <module fileurl="file://$PROJECT_DIR$/Holerite/Holerite.iml" filepath="$PROJECT_DIR$/Holerite/Holerite.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lists/Lists.iml" filepath="$PROJECT_DIR$/Lists/Lists.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/POO.iml" filepath="$PROJECT_DIR$/.idea/POO.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Pensionato/Pensionato.iml" filepath="$PROJECT_DIR$/Pensionato/Pensionato.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Produtos-Heranca/Produtos-Heranca.iml" filepath="$PROJECT_DIR$/Produtos-Heranca/Produtos-Heranca.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Vector/Vector.iml" filepath="$PROJECT_DIR$/Vector/Vector.iml" />
     </modules>
   </component>
 </project>
